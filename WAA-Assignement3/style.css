@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.controlbar{
+    display: inline-block;
+}
+
+.part2 {
+    margin: auto;
+}
+
+.part1 {
+    background-color: cadetblue;
+}
+
+.myflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageFilm {
+    height: 30vh;
+    max-height: 30vh;
+}
+
+.badAnswer {
+    font-weight: 900;
+    color: red;
+    margin-left: 10px;
+}
+
+.imageActor {
+    height: 10vh;
+    max-height: 10vh;
+}
