@@ -43,7 +43,9 @@ async function getActorList(filmid){
     let url = `https://api.themoviedb.org/3/movie/${filmid}/credits?api_key=b3414186c1692b1fb06e0d614dcee1a1&language=en-US`;
     let response = await fetch(url);
     let data = await response.json();
-    return data.cast
+    actors = data.cast
+    crew = data.crew
+    return actors.concat(crew)
 }
 
 //Function call when you want to check if the person is in the movie selected
